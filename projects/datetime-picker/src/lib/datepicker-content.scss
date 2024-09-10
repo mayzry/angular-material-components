@@ -56,6 +56,7 @@ $touch-max-height: 815px;
 .mat-datepicker-content-container {
   display: flex;
   flex-direction: column;
+  background-color: white;
 
   // Ensures that `mat-datepicker-actions` is pushed to the bottom of the popup.
   justify-content: space-between;
