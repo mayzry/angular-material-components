@@ -1,6 +1,6 @@
 {
   "name": "@mayzry/angular-material-components-version_17",
-  "version": "16.0.1",
+  "version": "17.0.1",
   "description": "Angular Material Datetime Picker 17",
   "author": "HO Hong Quan, updated by mayzry",
   "repository": {
@@ -10,15 +10,10 @@
   "bugs": {
     "url": "https://github.com/h2qutc/angular-material-components/issues"
   },
-  "homepage": "https://github.com/h2qutc/angular-material-components",
+  "homepage": "https://github.com/mayzry/angular-material-components",
   "keywords": [
     "angular",
-    "angular2",
-    "angular 12",
-    "angular 13",
-    "angular 14",
-    "angular 15",
-    "angular 16",
+    "angular 17",
     "angular-material",
     "angular material datetime picker",
     "angular material time picker",
@@ -31,24 +26,25 @@
     "ngx-mat-timepicker"
   ],
   "license": "MIT",
+
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build -c=production",
-    "build:datetime-picker": "ng build NgxMatDatetimePicker",
-    "build:moment-adapter": "ng build NgxMatMomentAdapter",
-    "build:color-picker": "ng build NgxMatColorPicker",
-    "build:file-input": "ng build NgxMatFileInput",
-    "publish:datetime-picker": "ng build NgxMatDatetimePicker && cd dist/@angular-material-components/datetime-picker && npm publish --access public && cd .. && cd .. && cd ..",
-    "publish:moment-adapter": "ng build NgxMatMomentAdapter && cd dist/@angular-material-components/moment-adapter && npm publish --access public  && cd .. && cd .. && cd ..",
-    "publish:color-picker": "ng build NgxMatColorPicker && cd dist/@angular-material-components/color-picker && npm publish --access public  && cd .. && cd .. && cd ..",
-    "publish:file-input": "ng build NgxMatFileInput && cd dist/@angular-material-components/file-input && npm publish --access public  && cd .. && cd .. && cd ..",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "codecov": "codecov",
-    "build:ci": "ng build -c=production --output-path docs --base-href https://h2qutc.github.io/angular-material-components/"
-  },
+  "ng": "ng",
+  "start": "ng serve",
+  "build": "ng build -c=production",
+  "build:datetime-picker": "ng build @mayzry/angular-material-components-version_17",
+  "build:moment-adapter": "ng build NgxMatMomentAdapter",
+  "build:color-picker": "ng build NgxMatColorPicker",
+  "build:file-input": "ng build NgxMatFileInput",
+  "publish:datetime-picker": "ng build @mayzry/angular-material-components-version_17 && cd dist/@mayzry/angular-material-components-version_17/angular-material-datetime-picker && npm publish --access public && cd .. && cd .. && cd ..",
+  "publish:moment-adapter": "ng build NgxMatMomentAdapter && cd dist/@mayzry/angular-material-components-version_17/angular-material-moment-adapter && npm publish --access public  && cd .. && cd .. && cd ..",
+  "publish:color-picker": "ng build NgxMatColorPicker && cd dist/@mayzry/angular-material-components-version_17/angular-material-color-picker && npm publish --access public  && cd .. && cd .. && cd ..",
+  "publish:file-input": "ng build NgxMatFileInput && cd dist/@mayzry/angular-material-components-version_17/angular-material-file-input && npm publish --access public  && cd .. && cd .. && cd ..",
+  "test": "ng test",
+  "lint": "ng lint",
+  "e2e": "ng e2e",
+  "codecov": "codecov",
+  "build:ci": "ng build -c=production --output-path docs --base-href https://github.com/mayzry/angular-material-components"
+},
   "dependencies": {
     "@angular/animations": "^17.3.12",
     "@angular/cdk": "^18.2.3",
